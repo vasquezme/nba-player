@@ -34,16 +34,16 @@ import plotly.express as px
 #     return ax
 
 # Example CSV should have columns: LOC_X, LOC_Y, SHOT_MADE_FLAG
-df1 = pd.read_csv('curry_2425.csv')  # Replace with your file
+df1 = pd.read_csv('data/curry_2425.csv')  # Replace with your file
 df1['Player'] = 'Stephen Curry'
 
-df2 = pd.read_csv('nikola_jokic_2425.csv')
+df2 = pd.read_csv('data/nikola_jokic_2425.csv')
 df2['Player'] = 'Nikola Jokic'
 
-df3 = pd.read_csv('mv_2425.csv')
+df3 = pd.read_csv('data/mv_2425.csv')
 df3['Player'] = 'Big Papi'
 
-df4 = pd.read_csv('mason_2425.csv')
+df4 = pd.read_csv('data/mason_2425.csv')
 df4['Player'] = 'Mase Dwagg'
 
 df = pd.concat([df1, df2, df3, df4], ignore_index=True)
