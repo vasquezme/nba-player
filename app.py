@@ -41,10 +41,10 @@ df2 = pd.read_csv('data/nikola_jokic_2425.csv')
 df2['Player'] = 'Nikola Jokic'
 
 df3 = pd.read_csv('data/mv_2425.csv')
-df3['Player'] = 'Big Papi'
+df3['Player'] = 'Little Winnie'
 
 df4 = pd.read_csv('data/mason_2425.csv')
-df4['Player'] = 'Mase Dwagg'
+df4['Player'] = 'Little Theo'
 
 df = pd.concat([df1, df2, df3, df4], ignore_index=True)
 
